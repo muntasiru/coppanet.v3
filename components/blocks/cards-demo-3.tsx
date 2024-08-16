@@ -2,7 +2,8 @@
 import { animate, motion } from "framer-motion";
 import React, { useEffect, useState } from "react";
 import { cn } from "@/lib/utils";
-import { GoCopilot } from "react-icons/go";
+import { GoalIcon } from "lucide-react";
+// import { GoCopilot } from "react-icons/go";
 
 export default function CardDemo() {
   return (
@@ -79,7 +80,7 @@ const Skeleton = () => {
           <ClaudeLogo className="h-4 w-4 " />
         </Container>
         <Container className="h-12 w-12 circle-2">
-          <GoCopilot className="h-6 w-6 dark:text-white" />
+          <GoalIcon className="h-6 w-6 dark:text-white" />
         </Container>
         <Container className="circle-3">
           <OpenAILogo className="h-8 w-8 dark:text-white" />
