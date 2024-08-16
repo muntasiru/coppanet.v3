@@ -1,6 +1,6 @@
 "use client";
 import { motion } from "framer-motion";
-import { HeroHighlight, Highlight } from "@/components/ui/hero-highlight";
+import { HeroHighlight } from "@/components/ui/hero-highlight";
 import PrimaryBtn from "../../components/ui/primary-btn";
 
 export function Banner() {
@@ -40,7 +40,7 @@ export function Banner() {
           className="text-2xl mt-5 font-oswald-bold px-4 md:text-3xl lg:text-[44px] font-bold text-neutral-700 dark:text-white max-w-5xl leading-relaxed lg:leading-[74px] text-center mx-auto "
         >
           Empowering Your Business with Advanced Digital Solutions Tailored to
-          Your Industry's Unique Needs
+          Your Industrys Unique Needs
         </motion.h1>
         <motion.div
           initial={{
