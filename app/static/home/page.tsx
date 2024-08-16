@@ -7,6 +7,7 @@ import { Infinity } from "./infinity.scroll";
 import HireTeam from "./hire.team";
 import Testimonials from "./testimonial";
 import Family from "./family";
+import ContactSection from "../contact";
 
 function HomePage() {
   return (
@@ -19,6 +20,7 @@ function HomePage() {
       <HireTeam />
       <Family />
       <Testimonials />
+      <ContactSection />
     </div>
   );
 }
