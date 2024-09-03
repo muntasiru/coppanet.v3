@@ -35,8 +35,8 @@ function ServiceCard({
             </h2>
             <p className="text-gray-700 mb-4">{subTitle}</p>
             <ul className="list-disc list-inside text-gray-700 space-y-2">
-              {list.map((res) => (
-                <li>{res}</li>
+              {list.map((res, i) => (
+                <li key={i}>{res}</li>
               ))}
             </ul>
           </div>

@@ -1,10 +1,4 @@
-"use client";
-
-import { getPostBySlug } from "@/sanity/sanity-utils";
-import { useParams, useRouter } from "next/navigation";
-import React, { useEffect, useState } from "react";
-
-async function BlogDetails({ data }: any) {
+function BlogDetails({ data }: any) {
   const { title } = data;
   return (
     <div className="bg-white p-6  max-w-3xl mx-auto my-5">

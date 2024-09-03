@@ -25,7 +25,7 @@ function Values() {
               In a rapidly changing world, agility is essential. We pride
               ourselves on our ability to adapt quickly to new challenges and
               opportunities, ensuring that our solutions remain relevant,
-              effective, and responsive to our clients' evolving needs.
+              effective, and responsive to our client&apos;s evolving needs.
             </p>
           </div>
           {/* Excellence */}

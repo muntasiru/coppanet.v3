@@ -1,7 +1,4 @@
-import React from "react";
-
 import { AnimatedTooltip } from "@/components/ui/animated-tooltip";
-import { Star } from "lucide-react";
 import { StarFilledIcon } from "@sanity/icons";
 import PrimaryBtn from "../(components)/ui/primary-btn";
 
