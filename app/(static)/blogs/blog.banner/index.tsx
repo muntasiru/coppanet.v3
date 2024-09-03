@@ -14,7 +14,7 @@ function BlogBanner() {
             Identity: The Ultimate Guide to Effective Branding
           </h1>
           <p className=" text-gray-200 text-[16px] font-light mt-5">
-            Coppanet's project lifecycle encompasses five key phases:
+            Coppanet&apos;s project lifecycle encompasses five key phases:
             initiating, planning, executing, controlling, and closing. In the
             initiating phase, Coppanet identifies opportunities and secures
             project approval. The planning phase involves creating a

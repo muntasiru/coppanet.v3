@@ -4,6 +4,7 @@ import { PortableText } from "@portabletext/react";
 import Image from "next/image";
 import urlBuilder from "@sanity/image-url";
 import config from "@/sanity/config/client-config";
+import React from "react";
 
 export async function BlogList() {
   const posts = await getPosts();
@@ -39,7 +40,11 @@ export async function BlogList() {
   return (
     <div className="py-14 container">
       <div className="grid grid-cols-1 gap-10 md:grid-cols-2 lg:grid-cols-3  ">
-        {posts?.map((post) => <BlogCard data={post} />)}
+        {posts?.map((post, i) => (
+          <React.Fragment key={i}>
+            <BlogCard data={post} />
+          </React.Fragment>
+        ))}
       </div>
     </div>
   );

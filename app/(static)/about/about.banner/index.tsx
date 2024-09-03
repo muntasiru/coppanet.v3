@@ -19,8 +19,8 @@ const AboutBanner = () => {
             Discover Coppanet, a dynamic software company specializing in
             cutting-edge platforms for E-commerce, Travel Agencies, Hospital
             Management, Tuition Centers, SMEs, and the Garment Sector. Elevate
-            efficiency and drive growth with Coppanet's innovative solutions.
-            Experience the future of software with us.
+            efficiency and drive growth with Coppanet&apos;s innovative
+            solutions. Experience the future of software with us.
           </p>
         </div>
       </div>

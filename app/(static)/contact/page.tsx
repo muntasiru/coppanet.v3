@@ -60,7 +60,7 @@ function Contact() {
             Have an idea?
           </h2>
           <p className="text-[24px] font-oswald-bold font-semibold mb-10">
-            Let's Transform Your Ideas into Reality.
+            Let&lsquo;s Transform Your Ideas into Reality.
           </p>
 
           <div className="space-y-4">

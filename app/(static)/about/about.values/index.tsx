@@ -13,9 +13,9 @@ function Values() {
             <h3 className="text-xl font-semibold mb-4">Innovation</h3>
             <p className="text-gray-700 leading-relaxed">
               At Coppenet, innovation is the cornerstone of our approach. We
-              strive to push the boundaries of what's possible, continuously
-              exploring new ideas and technologies to deliver cutting-edge
-              solutions that drive our clients' success.
+              strive to push the boundaries of what&apos;s possible,
+              continuously exploring new ideas and technologies to deliver
+              cutting-edge solutions that drive our clients' success.
             </p>
           </div>
           {/* Agility */}

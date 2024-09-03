@@ -31,7 +31,7 @@ async function BlogDetails({ data }: any) {
         <h2 className="text-2xl font-semibold mb-4">
           Understanding Brand Identity
         </h2>
-        <h3 className="text-xl font-semibold mb-2">What is Brand Identity?</h3>
+        {/* <h3 className="text-xl font-semibold mb-2">What is Brand Identity?</h3>
         <p className="mb-4">
           Brand identity is the collection of all brand elements that a company
           creates to portray the right image to its consumer. This includes
@@ -81,7 +81,7 @@ async function BlogDetails({ data }: any) {
           Understanding who your audience is, what they need, and how they
           perceive the world is crucial in shaping your brand identity. Create
           detailed buyer personas to guide your branding efforts.
-        </p>
+        </p> */}
       </div>
     </div>
   );
