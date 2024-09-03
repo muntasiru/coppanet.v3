@@ -98,3 +98,13 @@
     @apply bg-background text-foreground;
   }
 }
+
+.container {
+  @apply lg:px-14
+}
+
+/* global.css */
+.active-link {
+
+  color: #ff9114;
+}

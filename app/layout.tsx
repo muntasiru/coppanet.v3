@@ -1,6 +1,9 @@
 import type { Metadata } from "next";
 import { Inter } from "next/font/google";
+import { Footer } from "./(static)/(components)/ui/footer";
+import { Header } from "./(static)/(components)/ui/header";
 import "./globals.css";
+// import { Footer, Header } from "./(static)/layout";
 
 const inter = Inter({ subsets: ["latin"] });
 
@@ -16,7 +19,31 @@ export default function RootLayout({
 }>) {
   return (
     <html lang="en">
-      <body className={inter.className}>{children}</body>
+      <body className={inter.className}>
+        <Header />
+        {children}
+        <Footer />
+      </body>
     </html>
   );
 }
+
+// import Image from "next/image";
+// import React from "react";
+
+// import PrimaryBtn from "./(components)/ui/primary-btn";
+// import Link from "next/link";
+
+// components/Footer.js
+
+// function Layout({ children }: any) {
+//   return (
+//     <div>
+//       <Header />
+//       {children}
+//       <Footer />
+//     </div>
+//   );
+// }
+
+// export default Layout;
