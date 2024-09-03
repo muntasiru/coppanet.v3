@@ -15,7 +15,7 @@ function Values() {
               At Coppenet, innovation is the cornerstone of our approach. We
               strive to push the boundaries of what&apos;s possible,
               continuously exploring new ideas and technologies to deliver
-              cutting-edge solutions that drive our clients' success.
+              cutting-edge solutions that drive our clients success.
             </p>
           </div>
           {/* Agility */}
@@ -34,7 +34,7 @@ function Values() {
             <p className="text-gray-700 leading-relaxed">
               We pursue excellence in everything we do. From the quality of our
               products to the level of service we provide, we are committed to
-              delivering the highest standards, ensuring that our clients
+              delivering the highest standards, ensuring that our client&apos;s
               receive unparalleled value and satisfaction.
             </p>
           </div>
@@ -44,8 +44,9 @@ function Values() {
             <p className="text-gray-700 leading-relaxed">
               Simplicity is at the heart of our design philosophy. We aim to
               create solutions that are intuitive and easy to use, making
-              complex processes straightforward and accessible, so our clients
-              can focus on what matters most—growing their business.
+              complex processes straightforward and accessible, so our
+              client&apos;s can focus on what matters most—growing their
+              business.
             </p>
           </div>
         </div>
