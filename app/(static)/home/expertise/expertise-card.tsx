@@ -10,7 +10,7 @@ import {
   IconTerminal2,
 } from "@tabler/icons-react";
 
-export function ExpertiseCard({ title, subTitle, link, img }: any) {
+export function ExpertiseCard() {
   const features = [
     {
       title: "Built for developers",

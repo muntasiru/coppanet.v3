@@ -8,13 +8,14 @@ export function Banner() {
     <div className=" flex flex-col item-center gap-10 md:py-20 justify-center">
       <HeroHighlight className="text-center">
         <motion.div
+          whileInView={{
+            opacity: 1,
+            y: [20, -5, 0],
+          }}
+          viewport={{ once: false, amount: 0.2 }}
           initial={{
             opacity: 0,
             y: 20,
-          }}
-          animate={{
-            opacity: 1,
-            y: [20, -5, 0],
           }}
           transition={{
             duration: 0.4,
@@ -29,10 +30,11 @@ export function Banner() {
             opacity: 0,
             y: 20,
           }}
-          animate={{
+          whileInView={{
             opacity: 1,
             y: [20, -5, 0],
           }}
+          viewport={{ once: false, amount: 0.2 }}
           transition={{
             duration: 0.5,
             ease: [0.4, 0.0, 0.2, 1],
@@ -47,10 +49,11 @@ export function Banner() {
             opacity: 0,
             y: 20,
           }}
-          animate={{
+          whileInView={{
             opacity: 1,
             y: [20, -5, 0],
           }}
+          viewport={{ once: false, amount: 0.2 }}
           transition={{
             duration: 0.7,
             ease: [0.4, 0.0, 0.2, 1],

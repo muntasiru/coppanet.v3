@@ -2,6 +2,10 @@
 @tailwind components;
 @tailwind utilities;
 
+html {
+  scroll-behavior: smooth;
+}
+
 @font-face {
   font-family: 'oswald-light';
   src: url('/fonts/Oswald/static/Oswald-Light.ttf') format('woff2');

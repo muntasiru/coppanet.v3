@@ -1,7 +1,26 @@
+"use client";
+
+import { motion } from "framer-motion";
+
 export function Teams() {
   return (
     <div className="  grid grid-cols-1 md:grid-cols-2 gap-10 lg:grid-cols-3">
-      <div className="h-[450px] flex justify-center p-5 box-border flex-col items-center  w-full rounded-lg border-[1px] bg-white ">
+      <motion.div
+        initial={{
+          opacity: 0,
+          x: 400,
+        }}
+        whileInView={{
+          opacity: 1,
+          x: 0,
+        }}
+        viewport={{ once: false, amount: 0.1 }}
+        transition={{
+          duration: 1,
+          ease: [0.4, 0.0, 0.2, 1],
+        }}
+        className="h-[450px] flex justify-center p-5 box-border flex-col items-center  w-full rounded-lg border-[1px] bg-white "
+      >
         <img src="/hire/01.svg" className=" max-w-sm" alt="" />
         <h1 className=" self-start font-oswald-bold text-[22px] text-primary mt-3">
           Tell Us Your Requirements
@@ -12,7 +31,8 @@ export function Teams() {
           and vision you are planning, and some basic details about your
           company.
         </p>
-      </div>
+      </motion.div>
+
       <div className="h-[450px] flex justify-center p-5 box-border flex-col items-center  w-full rounded-lg border-[1px] bg-white ">
         <img src="/hire/02.svg" className=" max-w-sm" alt="" />
         <h1 className=" self-start font-oswald-bold text-[22px] text-primary mt-3">
@@ -24,7 +44,22 @@ export function Teams() {
         </p>
       </div>
 
-      <div className="h-[450px] flex justify-center p-5 box-border flex-col items-center  w-full rounded-lg border-[1px] bg-white ">
+      <motion.div
+        initial={{
+          opacity: 0,
+          x: -400,
+        }}
+        whileInView={{
+          opacity: 1,
+          x: 0,
+        }}
+        viewport={{ once: false, amount: 0.1 }}
+        transition={{
+          duration: 1,
+          ease: [0.4, 0.0, 0.2, 1],
+        }}
+        className="h-[450px] flex justify-center p-5 box-border flex-col items-center  w-full rounded-lg border-[1px] bg-white "
+      >
         <img src="/hire/03.svg" className=" max-w-sm" alt="" />
 
         <h1 className=" self-start font-oswald-bold text-[22px] text-primary mt-3">
@@ -34,7 +69,7 @@ export function Teams() {
           We will find the most suitable developers for you based on what you
           need and arrange your developer team within 24 hours.
         </p>
-      </div>
+      </motion.div>
     </div>
   );
 }

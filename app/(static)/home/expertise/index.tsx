@@ -1,6 +1,8 @@
+"use client";
 import React from "react";
 import Heading from "../../(components)/ui/heading";
 import { ExpertiseCard } from "./expertise-card";
+import { motion } from "framer-motion";
 
 function Expertise() {
   return (
@@ -10,14 +12,23 @@ function Expertise() {
           {" "}
           Our Expertise
         </Heading>
-        <div>
-          <ExpertiseCard
-            link=""
-            subTitle=""
-            img="/projects/door.png"
-            title="Education Platform Solution"
-          />
-        </div>
+        <motion.div
+          initial={{
+            opacity: 0,
+            y: 100,
+          }}
+          whileInView={{
+            opacity: 1,
+            y: 0,
+          }}
+          viewport={{ once: false, amount: 0.5 }}
+          transition={{
+            duration: 0.7,
+            ease: [0.4, 0.0, 0.2, 1],
+          }}
+        >
+          <ExpertiseCard />
+        </motion.div>
       </div>
     </div>
   );
