@@ -10,10 +10,10 @@ function BlogBanner() {
             <span className="bg-white/90 rounded-full py-1 px-3">Motion</span>
             <span className="text-gray-200 ml-5">August 10, 2024</span>
           </p>
-          <h1 className=" text-[44px] mt-3 text-white font-bold">
+          <h1 className="text-[44px] mt-3 text-white font-bold">
             Identity: The Ultimate Guide to Effective Branding
           </h1>
-          <p className=" text-gray-200 text-[16px] font-light mt-5">
+          <p className="text-gray-200 text-[16px] font-light mt-5">
             Coppanet&apos;s project lifecycle encompasses five key phases:
             initiating, planning, executing, controlling, and closing. In the
             initiating phase, Coppanet identifies opportunities and secures

@@ -2,7 +2,7 @@
 import BlogDetails from "./blog-details";
 import { useGetBlogs } from "./get-blogs";
 
-function page() {
+function Page() {
   const { data } = useGetBlogs();
   return (
     <div className="container">
@@ -11,4 +11,4 @@ function page() {
   );
 }
 
-export default page;
+export default Page;
