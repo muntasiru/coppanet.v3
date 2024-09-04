@@ -1,3 +1,5 @@
+"use client";
+import { motion } from "framer-motion";
 import React from "react";
 interface HeadingProps {
   children: React.ReactNode;
@@ -6,10 +8,42 @@ interface HeadingProps {
 function Heading({ children, subTitle }: HeadingProps) {
   return (
     <div className=" flex lg:py-10 w-full lg:gap-14 items-center">
-      <h1 className=" max-w-[400px] font-oswald-bold md:text-[34px] lg:text-[44px] text-primary">
+      <motion.h1
+        whileInView={{
+          opacity: 1,
+          x: 0,
+        }}
+        initial={{
+          opacity: 0,
+          x: 120,
+        }}
+        transition={{
+          duration: 0.7,
+          ease: [0.4, 0.0, 0.2, 1],
+        }}
+        viewport={{ once: false, amount: 0.5 }}
+        className=" max-w-[400px] font-oswald-bold md:text-[34px] lg:text-[44px] text-primary"
+      >
         {children}
-      </h1>
-      <p className="lg:max-w-[700px] text-gray-500 text-[20px]">{subTitle}</p>
+      </motion.h1>
+      <motion.p
+        whileInView={{
+          opacity: 1,
+          x: 0,
+        }}
+        initial={{
+          opacity: 0,
+          x: -120,
+        }}
+        transition={{
+          duration: 0.7,
+          ease: [0.4, 0.0, 0.2, 1],
+        }}
+        viewport={{ once: false, amount: 0.5 }}
+        className=" lg:max-w-[700px] text-gray-500 text-[20px]"
+      >
+        {subTitle}
+      </motion.p>
     </div>
   );
 }

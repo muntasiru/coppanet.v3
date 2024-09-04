@@ -7,6 +7,7 @@ function Heighlights() {
     <div className=" container">
       <div className="grid grid-cols-6 grid-rows-6 gap-4 lg:max-h-[500px]">
         <motion.div
+          whileInView="visible"
           initial={{
             opacity: 0,
             y: 0,
