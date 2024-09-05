@@ -5,31 +5,214 @@ import { motion } from "framer-motion";
 function Heighlights() {
   return (
     <div className=" container overflow-x-hidden">
-      <div className="grid grid-cols-6 grid-rows-6 gap-4 lg:max-h-[500px]">
-        <motion.div
-          whileInView="visible"
-          initial={{
-            opacity: 0,
-            y: 0,
-          }}
-          animate={{
-            opacity: 1,
-            y: [-20, -5, 0],
-          }}
-          transition={{
-            duration: 0.7,
-            ease: [0.4, 0.0, 0.2, 1],
-          }}
-          className=" mx-auto w-full row-span-3 rounded-md overflow-hidden"
-        >
-          <img
-            src="/heighlight/01.png"
-            className=" object-cover h-full w-full"
-            alt=""
-          />
-        </motion.div>
+      <div className="grid grid-cols-1 lg:grid-cols-3  gap-6 ">
+        <div className=" w-full flex flex-col gap-6">
+          <div className="flex w-full gap-6">
+            <motion.div
+              whileInView="visible"
+              initial={{
+                opacity: 0,
+                y: 0,
+              }}
+              animate={{
+                opacity: 1,
+                y: [-20, -5, 0],
+              }}
+              transition={{
+                duration: 0.7,
+                ease: [0.4, 0.0, 0.2, 1],
+              }}
+              className="w-1/2 max-h-[220px] lg:max-h-[250px]"
+            >
+              <img
+                src="/heighlight/01.png"
+                className=" object-cover h-full w-full"
+                alt=""
+              />
+            </motion.div>
 
-        <motion.div
+            <motion.div
+              initial={{
+                opacity: 0,
+              }}
+              animate={{
+                opacity: 1,
+              }}
+              transition={{
+                duration: 0.7,
+                ease: [0.4, 0.0, 0.2, 1],
+              }}
+              className=" flex justify-center items-center bg-slate-400 w-1/2 "
+            >
+              <h2 className="text-[24px] font-oswald-bold">DATA</h2>
+            </motion.div>
+          </div>
+
+          <motion.div
+            initial={{
+              opacity: 0,
+              y: 0,
+            }}
+            animate={{
+              opacity: 1,
+              y: [-20, -5, 0],
+            }}
+            transition={{
+              duration: 0.7,
+              ease: [0.4, 0.0, 0.2, 1],
+            }}
+            className=" w-full max-h-[180px] lg:max-h-[220px] "
+          >
+            <img
+              src="/heighlight/03.png"
+              className=" object-cover h-full w-full"
+              alt=""
+            />
+          </motion.div>
+        </div>
+        <div className=" flex gap-6">
+          <div className=" w-1/2 flex flex-col gap-6">
+            <motion.div
+              initial={{
+                opacity: 0,
+                y: 0,
+              }}
+              animate={{
+                opacity: 1,
+                y: [-20, -5, 0],
+              }}
+              transition={{
+                duration: 0.7,
+                ease: [0.4, 0.0, 0.2, 1],
+              }}
+              className="w-full h-[310px] "
+            >
+              <img
+                src="/heighlight/04.png"
+                className=" object-fill h-full w-full"
+                alt=""
+              />
+            </motion.div>
+            <motion.div
+              initial={{
+                opacity: 0,
+              }}
+              animate={{
+                opacity: 1,
+              }}
+              transition={{
+                duration: 0.7,
+                ease: [0.4, 0.0, 0.2, 1],
+              }}
+              className="flex justify-center items-center bg-slate-400 w-full h-[160px] "
+            >
+              <h2 className="text-[24px] font-oswald-bold">EXPERIENCE</h2>
+            </motion.div>
+          </div>
+          <div className=" w-1/2 flex flex-col gap-6">
+            <motion.div
+              initial={{
+                opacity: 0,
+              }}
+              animate={{
+                opacity: 1,
+              }}
+              transition={{
+                duration: 0.7,
+                ease: [0.4, 0.0, 0.2, 1],
+              }}
+              className="flex justify-center items-center bg-slate-400 w-full h-[160px] "
+            >
+              <h2 className="text-[24px] font-oswald-bold">EXPERIENCE</h2>
+            </motion.div>
+            <motion.div
+              initial={{
+                opacity: 0,
+                y: 0,
+              }}
+              animate={{
+                opacity: 1,
+                y: [-20, -5, 0],
+              }}
+              transition={{
+                duration: 0.7,
+                ease: [0.4, 0.0, 0.2, 1],
+              }}
+              className="w-full h-[310px] "
+            >
+              <img
+                src="/heighlight/04.png"
+                className=" object-fill h-full w-full"
+                alt=""
+              />
+            </motion.div>
+          </div>
+        </div>
+        <div className=" w-full flex flex-col gap-6">
+          <motion.div
+            initial={{
+              opacity: 0,
+              y: 0,
+            }}
+            animate={{
+              opacity: 1,
+              y: [-20, -5, 0],
+            }}
+            transition={{
+              duration: 0.7,
+              ease: [0.4, 0.0, 0.2, 1],
+            }}
+            className=" w-full max-h-[180px] lg:max-h-[220px] "
+          >
+            <img
+              src="/heighlight/03.png"
+              className=" object-cover h-full w-full"
+              alt=""
+            />
+          </motion.div>
+          <div className="flex w-full gap-6">
+            <motion.div
+              whileInView="visible"
+              initial={{
+                opacity: 0,
+                y: 0,
+              }}
+              animate={{
+                opacity: 1,
+                y: [-20, -5, 0],
+              }}
+              transition={{
+                duration: 0.7,
+                ease: [0.4, 0.0, 0.2, 1],
+              }}
+              className="w-1/2 max-h-[220px] lg:max-h-[250px]"
+            >
+              <img
+                src="/heighlight/01.png"
+                className=" object-cover h-full w-full"
+                alt=""
+              />
+            </motion.div>
+
+            <motion.div
+              initial={{
+                opacity: 0,
+              }}
+              animate={{
+                opacity: 1,
+              }}
+              transition={{
+                duration: 0.7,
+                ease: [0.4, 0.0, 0.2, 1],
+              }}
+              className=" flex justify-center items-center bg-slate-400 w-1/2 "
+            >
+              <h2 className="text-[24px] font-oswald-bold">DATA</h2>
+            </motion.div>
+          </div>
+        </div>
+
+        {/* <motion.div
           initial={{
             opacity: 0,
           }}
@@ -40,7 +223,7 @@ function Heighlights() {
             duration: 0.7,
             ease: [0.4, 0.0, 0.2, 1],
           }}
-          className=" mx-auto w-full row-span-3 bg-purple-300 h-auto rounded-md flex justify-center items-center"
+          className=" "
         >
           <h2 className="text-[24px] font-oswald-bold">DATA</h2>
         </motion.div>
@@ -58,44 +241,7 @@ function Heighlights() {
             duration: 0.7,
             ease: [0.4, 0.0, 0.2, 1],
           }}
-          className="row-span-4"
-        >
-          <img
-            src="/heighlight/03.png"
-            className=" object-fill h-full w-full"
-            alt=""
-          />
-        </motion.div>
-        <motion.div
-          initial={{
-            opacity: 0,
-          }}
-          animate={{
-            opacity: 1,
-          }}
-          transition={{
-            duration: 0.7,
-            ease: [0.4, 0.0, 0.2, 1],
-          }}
-          className=" mx-auto w-full row-span-3 bg-purple-300 h-auto rounded-md flex justify-center items-center"
-        >
-          <h2 className="text-[24px] font-oswald-bold">DATA</h2>
-        </motion.div>
-
-        <motion.div
-          initial={{
-            opacity: 0,
-            y: 0,
-          }}
-          animate={{
-            opacity: 1,
-            y: [-20, -5, 0],
-          }}
-          transition={{
-            duration: 0.7,
-            ease: [0.4, 0.0, 0.2, 1],
-          }}
-          className="mx-auto w-full row-span-3 rounded-md overflow-hidden"
+          className=""
         >
           <img
             src="/heighlight/02.png"
@@ -115,7 +261,7 @@ function Heighlights() {
             duration: 0.7,
             ease: [0.4, 0.0, 0.2, 1],
           }}
-          className=" row-span-2 col-start-3 row-start-5 bg-red-300 flex justify-center items-center rounded-md"
+          className=""
         >
           <h2 className="text-[24px] font-oswald-bold">EXPERIENCE</h2>
         </motion.div>
@@ -130,7 +276,7 @@ function Heighlights() {
             duration: 0.7,
             ease: [0.4, 0.0, 0.2, 1],
           }}
-          className=" row-span-2 col-start-4 row-start-1 bg-yellow-100 flex justify-center items-center rounded-md"
+          className=""
         >
           <h2 className="text-[24px] font-oswald-bold">EXPERIENCE</h2>
         </motion.div>
@@ -148,7 +294,7 @@ function Heighlights() {
             duration: 0.7,
             ease: [0.4, 0.0, 0.2, 1],
           }}
-          className=" row-span-4 col-start-4 row-start-3"
+          className=" "
         >
           <img
             src="/heighlight/04.png"
@@ -168,7 +314,7 @@ function Heighlights() {
             duration: 0.7,
             ease: [0.4, 0.0, 0.2, 1],
           }}
-          className=" row-span-3 col-start-5 row-start-4 bg-green-100 flex justify-center items-center rounded-md"
+          className=" "
         >
           <h2 className="text-[24px] font-oswald-bold">TECHNOLOGY</h2>
         </motion.div>
@@ -186,7 +332,7 @@ function Heighlights() {
             duration: 0.7,
             ease: [0.4, 0.0, 0.2, 1],
           }}
-          className=" col-span-2 row-span-3 col-start-5 row-start-1"
+          className=" "
         >
           <img
             src="/heighlight/05.png"
@@ -207,14 +353,14 @@ function Heighlights() {
             duration: 0.7,
             ease: [0.4, 0.0, 0.2, 1],
           }}
-          className=" row-span-3 col-start-6 row-start-4"
+          className=" "
         >
           <img
             src="/heighlight/06.png"
             alt=""
             className=" object-fill h-full w-full"
           />
-        </motion.div>
+        </motion.div> */}
       </div>
     </div>
   );

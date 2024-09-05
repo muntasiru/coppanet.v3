@@ -6,36 +6,51 @@ import { Globe } from "./globe";
 function Grid() {
   return (
     <>
-      <div className="grid grid-cols-3 grid-rows-7 gap-4 lg:gap-10 lg:max-h-[600px]">
-        <div className="row-span-7">
-          <GlareCard className="flex bg-[url(/family/01.png)] flex-col items-start justify-end py-8 px-6 w-full h-full">
-            <p className="font-bold text-white text-lg">Mehmud Alam</p>
+      <div className=" flex gap-6 flex-wrap h-fit ">
+        <div className="lg:max-w-[32%] w-full">
+          <GlareCard className="flex  bg-[url(/family/01.png)] bg-cover bg-no-repeat flex-col items-start justify-end py-8 px-6 w-full h-full">
+            <p className="font-oswald-bold text-white text-[22px]">
+              Mehmud Alam
+            </p>
             <p className="font-normal text-base text-neutral-200 mt-4">
               It is a long established fact that a reader will be distracted by
               the readable content of a page when looking at its layout.
             </p>
           </GlareCard>
         </div>
-        <div className="row-span-3">
-          <GlareCard className="flex bg-[url(/family/02.png)] flex-col items-start justify-end py-8 px-6 w-full h-full">
-            <p className="font-bold text-white text-lg">Bangladesh</p>
-            <p className="font-normal text-base text-neutral-200 mt-4">
-              It is a long established fact that a reader will be distracted by
-              the readable.
-            </p>
-          </GlareCard>
-        </div>
-        <div className="row-span-3">
-          <GlareCard className="flex bg-[url(/family/03.png)] flex-col items-start justify-end py-8 px-6 w-full h-full">
-            <p className="font-bold text-white text-lg">France</p>
-            <p className="font-normal text-base text-neutral-200 mt-4">
-              It is a long established fact that a reader will be distracted by
-              the readable.
-            </p>
-          </GlareCard>
-        </div>
-        <div className="col-span-2 row-span-4 col-start-2 rounded-lg relative row-start-4 overflow-hidden">
-          <Globe className=" absolute -right-[200px]" />
+
+        <div className="lg:max-w-[65%] ">
+          <div className=" flex lg:flex-nowrap flex-wrap gap-6 h-1/2">
+            <div className="lg:w-1/2 w-full max-h-[250px]">
+              <GlareCard className="flex bg-[url(/family/02.png)] bg-no-repeat bg-cover flex-col items-start justify-end  w-full h-full">
+                <div className="bg-black/50 w-full h-full py-8 px-6">
+                  <p className="font-oswald-bold text-white text-[22px]">
+                    Bangladesh
+                  </p>
+                  <p className="font-normal text-base text-neutral-200 mt-4">
+                    It is a long established fact that a reader will be
+                    distracted by the readable.
+                  </p>
+                </div>
+              </GlareCard>
+            </div>
+            <div className="lg:w-1/2 w-full max-h-[250px]">
+              <GlareCard className="flex bg-[url(/family/03.png)] bg-no-repeat bg-cover  flex-col items-start justify-end  w-full h-full">
+                <div className="bg-black/50 w-full h-full py-8 px-6">
+                  <p className="font-oswald-bold text-white text-[22px]">
+                    France
+                  </p>
+                  <p className="font-normal text-base text-neutral-200 mt-4">
+                    It is a long established fact that a reader will be
+                    distracted by the readable.
+                  </p>
+                </div>
+              </GlareCard>
+            </div>
+          </div>
+          <div className="  h-1/2 mt-6 lg:mt-0">
+            {/* <Globe className=" lg:absolute" /> */}
+          </div>
         </div>
       </div>
     </>

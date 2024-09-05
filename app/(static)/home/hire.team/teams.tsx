@@ -8,7 +8,6 @@ export function Teams() {
       <motion.div
         initial={{
           opacity: 0,
-          x: 400,
         }}
         whileInView={{
           opacity: 1,
@@ -47,7 +46,6 @@ export function Teams() {
       <motion.div
         initial={{
           opacity: 0,
-          x: -400,
         }}
         whileInView={{
           opacity: 1,
