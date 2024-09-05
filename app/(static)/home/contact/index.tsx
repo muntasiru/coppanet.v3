@@ -3,7 +3,7 @@ import PrimaryBtn from "../../(components)/ui/primary-btn";
 // components/ContactSection.js
 export default function ContactSection() {
   return (
-    <div className="bg-white py-16 px-8 lg:px-16">
+    <div className="bg-white py-16 px-8 lg:px-16 overflow-x-hidden">
       <div className="grid grid-cols-1 lg:grid-cols-2 gap-12 max-w-7xl mx-auto">
         {/* Left Section */}
         <div>

@@ -5,7 +5,7 @@ import PrimaryBtn from "../../(components)/ui/primary-btn";
 
 export function Banner() {
   return (
-    <div className=" flex flex-col item-center gap-10 md:py-20 justify-center">
+    <div className=" overflow-x-hidden flex flex-col item-center gap-10 py-10 sm:py-20 justify-center">
       <HeroHighlight className="text-center">
         <motion.div
           whileInView={{

@@ -6,12 +6,12 @@ import { motion } from "framer-motion";
 
 function Projects() {
   return (
-    <div className="bg-slate-50 py-20 mt-10">
+    <div className="bg-slate-50 py-10 md:py-20 mt-10 overflow-x-hidden">
       <div className="container">
         <Heading subTitle=" Our technology products are designed to streamlining operations and enhancing user experiences across sectors.">
           Our Products
         </Heading>
-        <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 md:gap-6">
+        <div className=" mt-6 grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6">
           <motion.div
             whileInView={{
               opacity: 1,

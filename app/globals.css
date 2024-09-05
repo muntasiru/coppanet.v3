@@ -6,6 +6,10 @@ html {
   scroll-behavior: smooth;
 }
 
+body {
+  overflow-x: hidden;
+}
+
 @font-face {
   font-family: 'oswald-light';
   src: url('/fonts/Oswald/static/Oswald-Light.ttf') format('woff2');

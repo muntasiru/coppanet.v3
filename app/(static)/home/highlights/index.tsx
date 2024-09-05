@@ -4,7 +4,7 @@ import React from "react";
 import { motion } from "framer-motion";
 function Heighlights() {
   return (
-    <div className=" container">
+    <div className=" container overflow-x-hidden">
       <div className="grid grid-cols-6 grid-rows-6 gap-4 lg:max-h-[500px]">
         <motion.div
           whileInView="visible"

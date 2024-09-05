@@ -6,7 +6,7 @@ import { motion } from "framer-motion";
 
 function Expertise() {
   return (
-    <div className="lg:py-10 3xl:py-20">
+    <div className="lg:py-10 3xl:py-20 overflow-x-hidden">
       <div className="container">
         <Heading subTitle="At Coppanet, innovation drives everything we do. Our technology products are designed to streamlining operations and enhancing user experiences across sectors.">
           {" "}
