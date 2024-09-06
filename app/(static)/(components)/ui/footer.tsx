@@ -5,9 +5,9 @@ import { Facebook, Mail, Map, MapPin, Phone, PhoneCall } from "lucide-react";
 export function Footer() {
   return (
     <footer className="bg-[#f9f4ef] text-gray-700 pt-14">
-      <div className="container mx-auto px-8 lg:px-16 grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-8 py-10">
+      <div className="container mx-auto px-8 lg:px-16 grid grid-cols-2  lg:grid-cols-4 gap-8 py-10">
         {/* Logo and Description */}
-        <div>
+        <div className="col-span-2 md:col-span-1">
           <img src="/logo/logo.svg" alt="" />
           <p className="my-6 text-[14px] ">
             We create innovative platforms across sectors, transforming
@@ -94,7 +94,7 @@ export function Footer() {
         </div>
 
         {/* Contact Information */}
-        <div>
+        <div className="col-span-2 md:col-span-1">
           <h3 className="font-semibold mb-4">Contact</h3>
           <ul className="space-y-2">
             <li className="flex items-center">

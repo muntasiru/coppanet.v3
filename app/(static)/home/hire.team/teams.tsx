@@ -4,7 +4,7 @@ import { motion } from "framer-motion";
 
 export function Teams() {
   return (
-    <div className="  grid grid-cols-1 md:grid-cols-2 gap-10 lg:grid-cols-3">
+    <div className="  grid grid-cols-1 md:grid-cols-2 gap-10 lg:grid-cols-3 mt-10 lg:mt-0">
       <motion.div
         initial={{
           opacity: 0,

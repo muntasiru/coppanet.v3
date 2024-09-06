@@ -36,12 +36,12 @@ function Testimonials() {
   ];
   return (
     <div
-      className="text-gray-600 overflow-x-hidden dark:text-gray-300  dark:bg-gray-900 lg:py-10 3xl:py-20 bg-gray-50 mt-10"
+      className="text-gray-600 overflow-x-hidden dark:text-gray-300  dark:bg-gray-900 py-10 3xl:py-20 bg-gray-50 mt-10"
       id="reviews"
     >
       <div className="container mx-auto px-6 md:px-12 xl:px-6">
         <Heading subTitle="">What our clients say</Heading>
-        <div className="md:columns-2 lg:columns-3 gap-8 space-y-8">
+        <div className="md:columns-2 lg:columns-3 gap-8 space-y-8 mt-10 lg:mt-0">
           <div className="aspect-auto p-8 border border-gray-100 rounded-3xl bg-white dark:bg-gray-800 dark:border-gray-700 shadow-2xl shadow-gray-600/10 dark:shadow-none">
             <div className="flex gap-4">
               <img

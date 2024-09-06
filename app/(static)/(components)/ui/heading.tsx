@@ -40,7 +40,7 @@ function Heading({ children, subTitle }: HeadingProps) {
           ease: [0.4, 0.0, 0.2, 1],
         }}
         viewport={{ once: false, amount: 0.5 }}
-        className=" lg:max-w-[700px] text-center md:text-left py-2 md:py-0 text-gray-500 md:text-[18px] text-[14px] sm:text-[16px]"
+        className=" lg:max-w-[700px] hidden md:block  text-center md:text-left py-2 md:py-0 text-gray-500 md:text-[18px] text-[14px] sm:text-[16px]"
       >
         {subTitle}
       </motion.p>
