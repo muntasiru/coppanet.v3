@@ -6,7 +6,7 @@ import { Globe } from "./globe";
 function Grid() {
   return (
     <>
-      <div className=" flex gap-6 flex-wrap lg:h-[600px] ">
+      <div className=" flex gap-6 flex-wrap lg:h-[600px] mt-10 lg:mt-0">
         <div className="lg:max-w-[32%] w-full h-full">
           <GlareCard className="flex  bg-[url(/family/01.png)] bg-cover bg-no-repeat flex-col items-start justify-end py-8 px-6 w-full h-full">
             <p className="font-oswald-bold text-white text-[22px]">

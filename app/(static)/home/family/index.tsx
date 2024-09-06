@@ -4,9 +4,11 @@ import Grid from "./grid";
 
 function Family() {
   return (
-    <div className="container ">
-      <Heading subTitle="">Our Global Family</Heading>
-      <Grid />
+    <div className="py-10 lg:py20">
+      <div className="container ">
+        <Heading subTitle="">Our Global Family</Heading>
+        <Grid />
+      </div>
     </div>
   );
 }
