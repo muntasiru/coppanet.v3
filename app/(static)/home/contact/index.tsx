@@ -1,3 +1,4 @@
+import { Mail, Map, Phone } from "lucide-react";
 import PrimaryBtn from "../../(components)/ui/primary-btn";
 
 // components/ContactSection.js
@@ -20,19 +21,25 @@ export default function ContactSection() {
           </p>
           <div className="space-y-4">
             <p className="flex items-center">
-              <span className="mr-3">📧</span>
-              <a href="mailto:info@coppanet.com" className="text-blue-500">
+              <span className="mr-3">
+                <Mail />
+              </span>
+              <a href="mailto:info@coppanet.com" className="text-primary">
                 info@coppanet.com
               </a>
             </p>
             <p className="flex items-center">
-              <span className="mr-3">📞</span>
-              <a href="tel:+8801605144631" className="text-blue-500">
+              <span className="mr-3">
+                <Phone />
+              </span>
+              <a href="tel:+8801605144631" className="text-primary">
                 +88 01605-144631
               </a>
             </p>
             <p className="flex items-center">
-              <span className="mr-3">📍</span>
+              <span className="mr-3">
+                <Map />
+              </span>
               Mahtab Center (L-12) Suite #10, 177 Shahid Syed Nazrul Islam
               Sarani Bijoy Nagar, Dhaka-1000, Bangladesh
             </p>

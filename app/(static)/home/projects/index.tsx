@@ -6,7 +6,7 @@ import { motion } from "framer-motion";
 
 function Projects() {
   return (
-    <div className="bg-slate-50 py-10 md:py-20 mt-10 overflow-x-hidden">
+    <div className="bg-white py-10 md:py-20 mt-10 overflow-x-hidden">
       <div className="container">
         <Heading subTitle=" Our technology products are designed to streamlining operations and enhancing user experiences across sectors.">
           Our Products

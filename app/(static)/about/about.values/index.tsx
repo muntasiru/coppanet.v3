@@ -2,7 +2,7 @@ import React from "react";
 
 function Values() {
   return (
-    <div className="bg-yellow-50/70 py-16 w-full">
+    <div className="py-16 w-full">
       <div className="container max-w-[70%] mx-auto px-4">
         <h2 className="text-3xl font-oswald-bold font-semibold text-center mb-12">
           Our Core Values
@@ -10,7 +10,16 @@ function Values() {
         <div className="grid grid-cols-1 md:grid-cols-2  gap-10">
           {/* Innovation */}
           <div className="bg-white p-8 shadow-lg rounded-lg">
-            <h3 className="text-xl font-semibold mb-4">Innovation</h3>
+            <div className=" shadow-md max-w-[80px] max-h-[80px] p-2 rounded-xl">
+              <img
+                src="/about/inovation.png"
+                className="w-full h-full"
+                alt=""
+              />
+            </div>
+            <h3 className="text-[26px] font-oswald-bold font-semibold mb-4 mt-5">
+              Innovation
+            </h3>
             <p className="text-gray-700 leading-relaxed">
               At Coppenet, innovation is the cornerstone of our approach. We
               strive to push the boundaries of what&apos;s possible,
