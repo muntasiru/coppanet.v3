@@ -2,6 +2,7 @@
 import { GlareCard } from "@/components/ui/glare-card";
 import React from "react";
 import { Globe } from "./globe";
+import { motion } from "framer-motion";
 
 function Grid() {
   return (
@@ -50,7 +51,23 @@ function Grid() {
           </div>
           <div className="  lg:h-[340px] mt-6 lg:mt-0">
             {/* <Globe className=" lg:absolute" /> */}
-            <img src="/family/fbd.png" alt="" className="h-full w-full" />
+            <motion.img
+              initial={{
+                opacity: 0,
+                scale: 0.5,
+              }}
+              whileInView={{
+                opacity: 1,
+                scale: 1,
+              }}
+              viewport={{ once: false, amount: 0.2 }}
+              transition={{
+                duration: 0.7,
+                ease: [0.4, 0.0, 0.2, 1],
+              }}
+              className="h-full w-full"
+              src="/family/fbd.png"
+            ></motion.img>
           </div>
         </div>
       </div>

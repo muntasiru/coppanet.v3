@@ -84,6 +84,11 @@ const config = {
             transform: "translate(calc(-50% - 0.5rem))",
           },
         },
+        scrollTopToBottom: {
+          to: {
+            transform: "translateY(calc(-100% - 0.5rem))", // Move vertically
+          },
+        },
       },
       animation: {
         "accordion-down": "accordion-down 0.2s ease-out",
@@ -91,6 +96,8 @@ const config = {
         move: "move 5s linear infinite",
         scroll:
           "scroll var(--animation-duration, 40s) var(--animation-direction, forwards) linear infinite",
+        scrollTopToBottom:
+          "scrollTopToBottom var(--animation-duration, 40s) var(--animation-direction, forwards) linear infinite",
       },
 
       fontFamily: {

@@ -20,7 +20,9 @@ const Preloader = () => {
       {isLoading && (
         <div className="fixed inset-0 flex items-center justify-center bg-white z-50">
           {/* Your loading animation or image here */}
-          <div className="loader"></div>
+          <div className="loader">
+            <img src="/logo/icon.svg" alt="icon" />
+          </div>
         </div>
       )}
     </>

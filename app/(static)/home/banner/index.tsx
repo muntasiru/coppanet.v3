@@ -2,6 +2,7 @@
 import { motion } from "framer-motion";
 import { HeroHighlight } from "@/components/ui/hero-highlight";
 import PrimaryBtn from "../../(components)/ui/primary-btn";
+import Link from "next/link";
 
 export function Banner() {
   return (
@@ -63,7 +64,9 @@ export function Banner() {
             }}
             className=" mx-auto mt-5"
           >
-            <PrimaryBtn>Hire the best team</PrimaryBtn>
+            <Link href={"/contact"}>
+              <PrimaryBtn>Hire the best team</PrimaryBtn>
+            </Link>
           </motion.div>
         </HeroHighlight>
       </div>

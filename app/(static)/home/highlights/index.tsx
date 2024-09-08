@@ -22,7 +22,7 @@ function Heighlights() {
                 duration: 0.7,
                 ease: [0.4, 0.0, 0.2, 1],
               }}
-              className="w-1/2 max-h-[220px] lg:max-h-[250px]"
+              className="w-1/2 max-h-[220px] lg:max-h-[250px] rounded-xl overflow-hidden"
             >
               <img
                 src="/heighlight/01.png"
@@ -42,9 +42,11 @@ function Heighlights() {
                 duration: 0.7,
                 ease: [0.4, 0.0, 0.2, 1],
               }}
-              className=" flex justify-center items-center bg-slate-400 w-1/2 "
+              className=" flex justify-center items-center bg-[#CCD3FF] w-1/2 rounded-xl "
             >
-              <h2 className="text-[24px] font-oswald-bold">DATA</h2>
+              <h2 className="text-[24px] font-oswald-bold text-blue-800">
+                DATA
+              </h2>
             </motion.div>
           </div>
 
@@ -61,10 +63,10 @@ function Heighlights() {
               duration: 0.7,
               ease: [0.4, 0.0, 0.2, 1],
             }}
-            className=" w-full max-h-[180px] lg:max-h-[220px] "
+            className=" w-full max-h-[180px] lg:max-h-[220px] rounded-xl overflow-hidden"
           >
             <img
-              src="/heighlight/03.png"
+              src="/heighlight/02.png"
               className=" object-cover h-full w-full"
               alt=""
             />
@@ -85,10 +87,10 @@ function Heighlights() {
                 duration: 0.7,
                 ease: [0.4, 0.0, 0.2, 1],
               }}
-              className="w-full h-[310px] "
+              className="w-full h-[310px] rounded-xl overflow-hidden"
             >
               <img
-                src="/heighlight/04.png"
+                src="/heighlight/03.png"
                 className=" object-fill h-full w-full"
                 alt=""
               />
@@ -104,9 +106,11 @@ function Heighlights() {
                 duration: 0.7,
                 ease: [0.4, 0.0, 0.2, 1],
               }}
-              className="flex justify-center items-center bg-slate-400 w-full h-[160px] "
+              className="flex justify-center items-center bg-[#FFDACC] w-full h-[160px] rounded-xl overflow-hidden"
             >
-              <h2 className="text-[24px] font-oswald-bold">EXPERIENCE</h2>
+              <h2 className="text-[24px] font-oswald-bold text-red-800">
+                EXPERIENCE
+              </h2>
             </motion.div>
           </div>
           <div className=" w-1/2 flex flex-col gap-6">
@@ -121,9 +125,11 @@ function Heighlights() {
                 duration: 0.7,
                 ease: [0.4, 0.0, 0.2, 1],
               }}
-              className="flex justify-center items-center bg-slate-400 w-full h-[160px] "
+              className="flex justify-center items-center bg-[#FFF5CC]  w-full h-[160px] rounded-xl overflow-hidden"
             >
-              <h2 className="text-[24px] font-oswald-bold">EXPERIENCE</h2>
+              <h2 className="text-[24px] font-oswald-bold text-yellow-800">
+                STRATEGY
+              </h2>
             </motion.div>
             <motion.div
               initial={{
@@ -138,7 +144,7 @@ function Heighlights() {
                 duration: 0.7,
                 ease: [0.4, 0.0, 0.2, 1],
               }}
-              className="w-full h-[310px] "
+              className="w-full h-[310px] rounded-xl overflow-hidden"
             >
               <img
                 src="/heighlight/04.png"
@@ -162,10 +168,10 @@ function Heighlights() {
               duration: 0.7,
               ease: [0.4, 0.0, 0.2, 1],
             }}
-            className=" w-full max-h-[180px] lg:max-h-[220px] "
+            className=" w-full max-h-[180px] lg:max-h-[220px] rounded-xl overflow-hidden"
           >
             <img
-              src="/heighlight/03.png"
+              src="/heighlight/06.png"
               className=" object-cover h-full w-full"
               alt=""
             />
@@ -185,7 +191,7 @@ function Heighlights() {
                 duration: 0.7,
                 ease: [0.4, 0.0, 0.2, 1],
               }}
-              className="w-1/2 max-h-[220px] lg:max-h-[250px]"
+              className="w-1/2 max-h-[220px] lg:max-h-[250px] rounded-xl overflow-hidden"
             >
               <img
                 src="/heighlight/01.png"
@@ -205,9 +211,11 @@ function Heighlights() {
                 duration: 0.7,
                 ease: [0.4, 0.0, 0.2, 1],
               }}
-              className=" flex justify-center items-center bg-slate-400 w-1/2 "
+              className=" flex justify-center items-center bg-[#F0CBFE] w-1/2 rounded-xl overflow-hidden "
             >
-              <h2 className="text-[24px] font-oswald-bold">DATA</h2>
+              <h2 className="text-[24px] font-oswald-bold text-purple-800">
+                TECHNOLOGY
+              </h2>
             </motion.div>
           </div>
         </div>

@@ -1,30 +1,65 @@
+import { PortableText } from "next-sanity";
+import Image from "next/image";
+import urlBuilder from "@sanity/image-url";
+import config from "@/sanity/config/client-config";
+import { urlFor } from "@/sanity/lib/image";
 function BlogDetails({ data }: any) {
-  const { title } = data;
+  const { title, body, mainImage, publishedAt } = data;
+  const ImageComponent = ({ value }: any) => {
+    return (
+      <div className="my-10 overflow-hidden rounded-[15px]">
+        <Image
+          src={
+            urlBuilder(config)
+              .image(value)
+              .fit("max")
+              .auto("format")
+              .url() as string
+          }
+          width={400}
+          height={400}
+          alt={value.alt || "blog image"}
+          loading="lazy"
+        />
+      </div>
+    );
+  };
+  const components = {
+    types: {
+      image: ImageComponent,
+    },
+  };
+  console.log(mainImage?.asset?._ref);
+  let published = new Date(publishedAt);
   return (
     <div className="bg-white p-6  max-w-3xl mx-auto my-5">
-      <img src="/about/ab-bg.png" alt="bg" />
+      <Image
+        src={urlFor(
+          mainImage ? mainImage : "image-Tb9Ew8CXIwaY6R1kjMvI0uRR-2000x3000-jpg"
+        )
+          .fit("max")
+          .auto("format")
+          .url()}
+        width={400}
+        height={200}
+        alt="blog image"
+        loading="lazy"
+        className="w-full h-[120px] lg:h-[220px] object-cover"
+      />
       <div className="flex justify-between items-center my-4">
         <span className="text-xs text-orange-500 font-semibold bg-orange-100 py-1 px-2 rounded">
-          Motion
+          News
         </span>
-        <span className="text-xs text-gray-600">August 10, 2024</span>
+        <span className="text-xs text-gray-600">
+          {published.toDateString()}
+        </span>
       </div>
 
       <h1 className="text-3xl font-bold text-gray-800 mb-4">{title}</h1>
       <p className="text-gray-600 mb-6">{}</p>
 
-      <div className="mb-6">
-        <img
-          src="your-image-source.jpg"
-          alt="People working in an office"
-          className="rounded-lg w-full h-auto"
-        />
-      </div>
-
       <div className="text-gray-800">
-        <h2 className="text-2xl font-semibold mb-4">
-          Understanding Brand Identity
-        </h2>
+        <PortableText value={body} />
         {/* <h3 className="text-xl font-semibold mb-2">What is Brand Identity?</h3>
         <p className="mb-4">
           Brand identity is the collection of all brand elements that a company

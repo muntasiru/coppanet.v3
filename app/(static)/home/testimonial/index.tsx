@@ -1,6 +1,4 @@
-import React from "react";
 import Heading from "../../(components)/ui/heading";
-import { InfiniteFeedbacks } from "../../(components)/ui/infinity-feedbacks";
 
 function Testimonials() {
   const testimonials = [
@@ -208,10 +206,10 @@ function Testimonials() {
             </p>
           </div>
         </div>
-        {/* <InfiniteFeedbacks
+        {/* <InfiniteFeedbackMoving
+          items={testimonials}
           direction="top"
           speed="normal"
-          items={testimonials}
         /> */}
       </div>
     </div>
