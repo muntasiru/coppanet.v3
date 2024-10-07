@@ -8,7 +8,7 @@ function Projects() {
   return (
     <div className="bg-white py-10 md:py-20 mt-10 overflow-x-hidden">
       <div className="container">
-        <Heading subTitle=" Our technology products are designed to streamlining operations and enhancing user experiences across sectors.">
+        <Heading subTitle=" Our data-driven technology solutions streamline business operations, harnessing automation and AI to deliver seamless user experiences across industries.">
           Our Products
         </Heading>
         <div className=" mt-6 grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6">

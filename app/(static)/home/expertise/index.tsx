@@ -8,7 +8,7 @@ function Expertise() {
   return (
     <div className="py-10 3xl:py-20 ">
       <div className="container">
-        <Heading subTitle="At Coppanet, innovation drives everything we do. Our technology products are designed to streamlining operations and enhancing user experiences across sectors.">
+        <Heading subTitle="Our strength lies in developing data-driven technology and automation systems that empower businesses with smarter, more efficient operations and user-centric experiences.">
           {" "}
           Our Expertise
         </Heading>

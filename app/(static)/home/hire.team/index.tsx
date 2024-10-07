@@ -6,7 +6,7 @@ function HireTeam() {
   return (
     <div className="py-10 3xl:py-20 bg-gray-50 overflow-x-hidden">
       <div className="container">
-        <Heading subTitle="Make a big effect in the web market without having to go through the drawn-out employment process by utilizing the expertise of the top website expert. Finding web designers and developers has never been simpler or faster than now.">
+        <Heading subTitle="Need to streamline your business with innovative tech solutions? Coppanet is here to help! Our expert team leverages automation and AI to boost efficiency and improve user experience. No complex processes—just 3 simple steps.">
           In 3 Easy Steps, <br /> Hire Our Team
         </Heading>
         <Teams />

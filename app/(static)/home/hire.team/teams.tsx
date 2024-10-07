@@ -25,10 +25,9 @@ export function Teams() {
           Tell Us Your Requirements
         </h1>
         <p className=" text-gray-500 text-[14px] mt-3">
-          Complete the form on our website and provide information about your
-          project goal & details for building your website, the specific goals
-          and vision you are planning, and some basic details about your
-          company.
+          Tell us what’s keeping you at night;, from design ideas to
+          functionality requirements. We listen carefully to understand your
+          goals and needs.
         </p>
       </motion.div>
 
@@ -38,8 +37,8 @@ export function Teams() {
           Book a Call
         </h1>
         <p className=" text-gray-500 text-[14px] mt-3">
-          Book a call with us at a suitable time to discuss your requirements
-          and the objectives you want to accomplish with your tech team..
+          Book a call today and our expert team will provide advice and clarify
+          any questions to ensure we’re aligned.
         </p>
       </div>
 
@@ -64,8 +63,9 @@ export function Teams() {
           Get Quote for your Website Project within 24 Hours
         </h1>
         <p className=" text-gray-500 text-[14px] mt-3">
-          We will find the most suitable developers for you based on what you
-          need and arrange your developer team within 24 hours.
+          Within just 24 hours of our call, you’ll receive a detailed quote
+          tailored to your project, so you can start your journey with
+          confidence.
         </p>
       </motion.div>
     </div>
