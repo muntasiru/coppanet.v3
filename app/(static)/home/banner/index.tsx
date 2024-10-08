@@ -81,11 +81,11 @@ export function Banner() {
         {/* Radial gradient for the container to give a faded look */}
         <div className="absolute pointer-events-none inset-0  flex items-center  dark:bg-black bg-white [mask-image:radial-gradient(ellipse_at_center,transparent_2%,black)]"></div>
         <div className="container flex z-50 items-center justify-center gap-10">
-          <div className="lg:max-w-[550px] w-full">
+          <div className="lg:max-w-[540px] w-full">
             <h1 className="sr-only">{headingText}</h1>
             <div
               aria-hidden="true"
-              className="text-3xl w-full block font-oswald-bold md:text-3xl lg:text-[48px] font-bold text-neutral-700 dark:text-white leading-relaxed lg:leading-[74px]"
+              className="text-3xl w-full block font-oswald-bold md:text-3xl lg:text-[50px] font-bold text-neutral-700 dark:text-white leading-relaxed lg:leading-[74px]"
             >
               {mounted &&
                 headingText.split(" ").map((word, index) => (
@@ -104,7 +104,7 @@ export function Banner() {
                 ))}
             </div>
             <motion.svg
-              className="max-w-[300px] -rotate-[6deg] -mt-2"
+              className="max-w-[250px] -rotate-[6deg] "
               xmlns="http://www.w3.org/2000/svg"
               viewBox="0 0 500 20"
               initial="hidden"

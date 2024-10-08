@@ -13,7 +13,7 @@ function HomePage() {
   return (
     <div>
       <Banner />
-      <Heighlights />
+      {/* <Heighlights /> */}
       <Projects />
       <Expertise />
       <Infinity />
