@@ -4,7 +4,7 @@ export default function EffectiveSolution() {
   return (
     <div className="container mx-auto px-4 py-12">
       <h1 className="text-4xl font-bold mb-8 font-oswald-bold">
-        Coppanet's Solution is Different
+        Coppanet&apos;s Solution is Different
         <br />
         and More Effective Than Others
       </h1>
