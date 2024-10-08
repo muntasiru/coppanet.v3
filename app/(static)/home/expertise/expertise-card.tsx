@@ -13,53 +13,45 @@ import {
 export function ExpertiseCard() {
   const features = [
     {
-      title: "Built for developers",
+      title: "E-commerce Solution",
       description:
-        "Built for engineers, developers, dreamers, thinkers and doers.",
-      icon: <IconTerminal2 />,
-    },
-    {
-      title: "Ease of use",
-      description:
-        "It's as easy as using an Apple, and as expensive as buying one.",
-      icon: <IconEaseInOut />,
-    },
-    {
-      title: "Pricing like no other",
-      description:
-        "Our prices are best in the market. No cap, no lock, no credit card required.",
-      icon: <IconCurrencyDollar />,
-    },
-    {
-      title: "100% Uptime guarantee",
-      description: "We just cannot be taken down by anyone.",
-      icon: <IconCloud />,
-    },
-    {
-      title: "Multi-tenant Architecture",
-      description: "You can simply share passwords instead of buying new seats",
-      icon: <IconRouteAltLeft />,
-    },
-    {
-      title: "24/7 Customer Support",
-      description:
-        "We are available a 100% of the time. Atleast our AI Agents are.",
-      icon: <IconHelp />,
-    },
-    {
-      title: "Money back guarantee",
-      description:
-        "If you donot like EveryAI, we will convince you to like us.",
+        "We build scalable e-commerce platforms that enhance user experience, streamline operations, and boost conversions with automation.",
       icon: <IconAdjustmentsBolt />,
     },
     {
-      title: "And everything else",
-      description: "I just ran out of copy ideas. Accept my sincere apologies",
-      icon: <IconHeart />,
+      title: "Healthcare Solution",
+      description:
+        "Our healthcare solutions provide secure, compliant systems for patient management, telemedicine, and seamless care delivery.",
+      icon: <IconAdjustmentsBolt />,
+    },
+    {
+      title: "Fintech Solution",
+      description:
+        "We create secure fintech platforms for payments, digital wallets, and financial services, leveraging AI and user-friendly technology.",
+      icon: <IconAdjustmentsBolt />,
+    },
+    {
+      title: "Education Platform",
+      description:
+        "We develop interactive e-learning platforms and virtual classrooms that support engaging, scalable, and seamless learning experiences.",
+      icon: <IconAdjustmentsBolt />,
+    },
+    {
+      title: "Custom Software Development Service",
+      description:
+        "We provide tailored software development services, crafting web and mobile apps that meet your business needs with agility and precision.",
+      icon: <IconAdjustmentsBolt />,
+    },
+    {
+      title: "Travel & Tourism Solution",
+      description:
+        "We deliver custom travel tech solutions that enhance bookings, customer service, and overall travel experiences.",
+      icon: <IconAdjustmentsBolt />,
     },
   ];
+
   return (
-    <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4  relative z-10  mx-auto">
+    <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3  relative z-10  mx-auto">
       {features.map((feature, index) => (
         <Feature key={feature.title} {...feature} index={index} />
       ))}
@@ -101,7 +93,7 @@ const Feature = ({
           {title}
         </span>
       </div>
-      <p className="text-sm text-neutral-600 dark:text-neutral-300 max-w-xs relative z-10 px-10">
+      <p className="text-sm text-neutral-600 dark:text-neutral-300 max-w-full relative z-10 px-10">
         {description}
       </p>
     </div>
