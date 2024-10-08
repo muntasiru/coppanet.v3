@@ -1,12 +1,16 @@
 import React from "react";
 import ServiceBanner from "./service.banner";
 import ServiceList from "./service.list";
+import EffectiveSolution from "./effective.solution";
+import ServiceCards from "./service.cards";
 
 function Service() {
   return (
     <div>
       <ServiceBanner />
-      <ServiceList />
+      {/* <ServiceList /> */}
+      <ServiceCards />
+      <EffectiveSolution />
     </div>
   );
 }

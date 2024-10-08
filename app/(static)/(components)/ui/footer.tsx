@@ -99,6 +99,30 @@ export function Footer() {
           <ul className="space-y-2">
             <li className="flex items-center">
               <span className="mr-2">
+                <PhoneCall />
+              </span>
+              <a href="tel:+33140344505" className="hover:text-brown-600">
+                +33 1 40 34 45 05
+              </a>
+            </li>
+            <li className="flex items-center">
+              <span className="mr-2">📧</span>
+              <a
+                href="mailto:support@managerparis.com"
+                className="hover:text-brown-600"
+              >
+                support@managerparis.com
+              </a>
+            </li>
+            <li className="flex items-center">
+              <span className="mr-2">📍</span>
+              155 rue du faubourg Saint-Denis 75010 Paris, France
+            </li>
+
+            <hr />
+
+            <li className="flex items-center">
+              <span className="mr-2">
                 <Mail />
               </span>
               <a
@@ -122,28 +146,6 @@ export function Footer() {
               </span>
               Mahtab Center (L-12) Suite #10, 177 Shahid Syed Nazrul Islam
               Sarani Bijoy Nagar, Dhaka-1000, Bangladesh
-            </li>
-
-            <li className="flex items-center">
-              <span className="mr-2">
-                <PhoneCall />
-              </span>
-              <a href="tel:+33140344505" className="hover:text-brown-600">
-                +33 1 40 34 45 05
-              </a>
-            </li>
-            <li className="flex items-center">
-              <span className="mr-2">📧</span>
-              <a
-                href="mailto:support@managerparis.com"
-                className="hover:text-brown-600"
-              >
-                support@managerparis.com
-              </a>
-            </li>
-            <li className="flex items-center">
-              <span className="mr-2">📍</span>
-              155 rue du faubourg Saint-Denis 75010 Paris, France
             </li>
           </ul>
         </div>

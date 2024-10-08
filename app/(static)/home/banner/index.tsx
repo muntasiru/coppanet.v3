@@ -77,7 +77,7 @@ export function Banner() {
   };
   return (
     <div className="  overflow-x-hidden flex flex-col  gap-10  ">
-      <div className=" h-[600px] w-full dark:bg-black bg-white  dark:bg-grid-white/[0.1] bg-grid-black/[0.1] relative flex items-center ">
+      <div className=" h-[400px] md:h-[600px] w-full dark:bg-black bg-white  dark:bg-grid-white/[0.1] bg-grid-black/[0.1] relative flex items-center ">
         {/* Radial gradient for the container to give a faded look */}
         <div className="absolute pointer-events-none inset-0  flex items-center  dark:bg-black bg-white [mask-image:radial-gradient(ellipse_at_center,transparent_2%,black)]"></div>
         <div className="container flex z-50 items-center justify-center gap-10">
@@ -85,7 +85,7 @@ export function Banner() {
             <h1 className="sr-only">{headingText}</h1>
             <div
               aria-hidden="true"
-              className="text-2xl w-full block font-oswald-bold md:text-3xl lg:text-[44px] font-bold text-neutral-700 dark:text-white leading-relaxed lg:leading-[74px]"
+              className="text-3xl w-full block font-oswald-bold md:text-3xl lg:text-[48px] font-bold text-neutral-700 dark:text-white leading-relaxed lg:leading-[74px]"
             >
               {mounted &&
                 headingText.split(" ").map((word, index) => (
@@ -104,7 +104,7 @@ export function Banner() {
                 ))}
             </div>
             <motion.svg
-              className="max-w-[300px] -rotate-[6deg] -mt-6"
+              className="max-w-[300px] -rotate-[6deg] -mt-2"
               xmlns="http://www.w3.org/2000/svg"
               viewBox="0 0 500 20"
               initial="hidden"
@@ -140,7 +140,7 @@ export function Banner() {
             variants={imageVariants}
             initial="hidden"
             animate="visible"
-            className="mt-8 lg:mt-0"
+            className="mt-8 lg:mt-0 md:block hidden"
           >
             <Image
               src="/banner/bn-image.png"
