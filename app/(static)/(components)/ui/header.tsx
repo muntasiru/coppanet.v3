@@ -52,7 +52,7 @@ export function Header() {
       </div>
 
       <div
-        className={` ${isMobile ? "left-0 p-6 box-border  duration-300 fixed top-0 z-50 w-[320px] bg-white h-screen" : "absolute duration-300 top-0 -left-[100%] z-10 w-full  h-screen"} `}
+        className={` ${isMobile ? "left-0 p-6 z-[9999] box-border  duration-300 fixed top-0  w-[320px] bg-white h-screen" : "absolute duration-300 top-0 -left-[100%] z-10 w-full  h-screen"} `}
       >
         <CircleX
           onClick={onClickMobileMenu}
