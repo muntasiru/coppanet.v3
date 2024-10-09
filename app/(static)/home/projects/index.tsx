@@ -79,7 +79,7 @@ function Projects() {
             <ProjectCard
               title="Manager Travel"
               subTitle="Travel"
-              link="https://www.managertravel.com"
+              link="https://manageraparis.com/"
               img="/projects/manager.png"
             />
           </motion.div>
