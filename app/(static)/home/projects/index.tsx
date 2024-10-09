@@ -6,7 +6,7 @@ import { motion } from "framer-motion";
 
 function Projects() {
   return (
-    <div className="bg-white py-10 md:py-20 mt-10 overflow-x-hidden">
+    <div className="bg-white py-5 md:py-10  overflow-x-hidden">
       <div className="container">
         <Heading subTitle=" Our data-driven technology solutions streamline business operations, harnessing automation and AI to deliver seamless user experiences across industries.">
           Our Products
@@ -31,7 +31,7 @@ function Projects() {
             <ProjectCard
               title="Soowgood"
               subTitle="Medical and Healthcare"
-              link="soowgood.com"
+              link="https://soowgood.com"
               img="/projects/soowgood.png"
             />
           </motion.div>
@@ -55,7 +55,7 @@ function Projects() {
             <ProjectCard
               title="DoorApp"
               subTitle="Luggage Storage"
-              link="doorapp.com"
+              link="https://doorapp.com"
               img="/projects/door.png"
             />
           </motion.div>
@@ -79,7 +79,7 @@ function Projects() {
             <ProjectCard
               title="Manager Travel"
               subTitle="Travel"
-              link="managertravel.com"
+              link="https://managertravel.com"
               img="/projects/manager.png"
             />
           </motion.div>

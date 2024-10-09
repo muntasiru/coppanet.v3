@@ -36,15 +36,20 @@ export function ProjectCard({ img, link, subTitle, title }: ProjectCardProps) {
           {subTitle}
         </CardItem>
         <div className="flex justify-between items-center mt-5">
-          <CardItem
+          {/* <CardItem
             translateZ={20}
-            as={Link}
+            className="px-4 py-2 hover:bg-primary hover:text-white rounded-lg text-xs border-[1px] font-normal dark:text-white"
+          >
+            <a href="">Live now →</a>
+          </CardItem> */}
+          <a
             href={link}
-            target="__blank"
+            target="_blank"
+            rel="noopener noreferrer"
             className="px-4 py-2 hover:bg-primary hover:text-white rounded-lg text-xs border-[1px] font-normal dark:text-white"
           >
             Live now →
-          </CardItem>
+          </a>
           {/* <ProjectsModal /> */}
         </div>
       </CardBody>
