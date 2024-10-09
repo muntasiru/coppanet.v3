@@ -31,7 +31,7 @@ function Projects() {
             <ProjectCard
               title="Soowgood"
               subTitle="Medical and Healthcare"
-              link="https://soowgood.com"
+              link="https://www.soowgood.com"
               img="/projects/soowgood.png"
             />
           </motion.div>
@@ -55,7 +55,7 @@ function Projects() {
             <ProjectCard
               title="DoorApp"
               subTitle="Luggage Storage"
-              link="https://doorapp.com"
+              link="https://www.doorap.com/"
               img="/projects/door.png"
             />
           </motion.div>
@@ -79,7 +79,7 @@ function Projects() {
             <ProjectCard
               title="Manager Travel"
               subTitle="Travel"
-              link="https://managertravel.com"
+              link="https://www.managertravel.com"
               img="/projects/manager.png"
             />
           </motion.div>
