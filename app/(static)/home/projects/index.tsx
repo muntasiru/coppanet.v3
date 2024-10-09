@@ -31,7 +31,7 @@ function Projects() {
             <ProjectCard
               title="Soowgood"
               subTitle="Medical and Healthcare"
-              link="https://www.soowgood.com"
+              link="https://soowgood.com"
               img="/projects/soowgood.png"
             />
           </motion.div>
